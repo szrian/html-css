@@ -20,6 +20,23 @@ header h1 {
     font-size: 4em;
 }
 
+main {
+    background-color: white;
+    font-family: 'Sriracha', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+main p {
+    padding: 20px;
+    line-height: 2.3em;
+    font-weight: bold;
+}
+
+.branco {
+    background-color: white;
+}
+
 a {
     color: white;
     text-decoration: none;
