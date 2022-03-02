@@ -10,6 +10,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -20,9 +21,10 @@ header {
 
 header h1 {
     font-family: 'Passion One', Arial, Helvetica, sans-serif;
-    font-size: 4em;
+    font-size: 10vw;
     font-variant: small-caps;
     padding-top: 50px;
+    font-family: 'Passion One', cursive;
 }
 
 header p {
@@ -45,6 +47,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
 }
 
 .branco {
@@ -58,8 +62,9 @@ section {
 }
 
 .imagem > p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.233);
-    width: 400px;
+    padding: 10px;
 }
 
 footer {
